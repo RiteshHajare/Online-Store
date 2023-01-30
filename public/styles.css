@@ -1,0 +1,25 @@
+.rootcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pcard{
+    width: 200px;
+    margin: 20px;
+}
+.card-image img{
+    object-fit: cover;
+    height: 150px;
+}
+
+.authcard{
+    margin: 10px auto !important;
+    max-width: 500px;
+    padding: 10px;
+}
+
+input:focus{
+    border-bottom: 1px solid #1e88e5 !important;
+     box-shadow: 0 1px 0 0 #1e88e5 !important;
+}
